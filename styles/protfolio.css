@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+ /* header and navigation styles */
+.port-nav{
+    font-weight: 800;
+    font-size: 45px;    
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: flex;
+    margin-left: 50px;
+}
+.nav-primary{
+    color: #FD6E0A;
+}
