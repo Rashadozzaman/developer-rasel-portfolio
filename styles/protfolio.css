@@ -1,25 +1,47 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans';
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
 }
 
- /* header and navigation styles */
-.port-nav{
+/* header and navigation styles */
+.port-nav {
     font-weight: 800;
-    font-size: 45px;    
+    font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
+    align-items: center;
 }
-nav li{
-    list-style: flex;
+
+nav li {
+    list-style: none;
     margin-left: 50px;
 }
-.nav-primary{
+
+.nav-primary {
     color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+   
 }
