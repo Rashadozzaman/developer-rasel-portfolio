@@ -9,6 +9,13 @@ nav {
     margin: 50px 200px;
 }
 
+.header {
+    background: #fff8f3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 /* header and navigation styles */
 .port-nav {
     font-weight: 800;
@@ -38,10 +45,55 @@ nav li {
     border: 0;
     padding: 18px 35px;
 }
+
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     margin: 0 200px;
-   
+
+}
+
+.banner-des {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner-sub {
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    margin-bottom: 20px;
+}
+
+.btn-primary1 {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 460px;
+    padding: 19px 23px 18px 24px;
+    color: #FD6E0A;
+
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+
+.about {
+    margin: 131px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+.section-title{
+
+}
+.section-description{
+    
 }
